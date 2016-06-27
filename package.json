@@ -1,0 +1,145 @@
+{
+    "author": "Shinya-Dodo",
+    "dependencies": {},
+    "keywords": [],
+    "name": "digitaldatetime2",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "DigitalDateTime2",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "ampm": 12,
+            "bgcolor": 1,
+            "connect": 18,
+            "dateformat": 3,
+            "disconnect": 17,
+            "edTime": 16,
+            "holiday": 13,
+            "hourly": 14,
+            "keyFri": 10,
+            "keyMon": 6,
+            "keySat": 11,
+            "keySun": 5,
+            "keyThu": 9,
+            "keyTue": 7,
+            "keyWed": 8,
+            "stTime": 15,
+            "week": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/MENU",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charging_W.png",
+                    "name": "IMAGE_CHARGING_W",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charging_B.png",
+                    "name": "IMAGE_CHARGING_B",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charging_C.png",
+                    "name": "IMAGE_CHARGING_C",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_W.png",
+                    "name": "IMAGE_BLUETOOTH_W",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_B.png",
+                    "name": "IMAGE_BLUETOOTH_B",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_no_W.png",
+                    "name": "IMAGE_BLUETOOTH_NO_W",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_no_B.png",
+                    "name": "IMAGE_BLUETOOTH_NO_B",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_no_C.png",
+                    "name": "IMAGE_BLUETOOTH_NO_C",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth_C.png",
+                    "name": "IMAGE_BLUETOOTH_C",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9: ]",
+                    "file": "fonts/Ds-digib.ttf",
+                    "name": "FONT_DIGITAL_BOLD_60",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "35895268-d841-4a36-893c-344672fe5d46",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.19.0"
+}
